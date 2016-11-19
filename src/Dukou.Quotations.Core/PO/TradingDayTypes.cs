@@ -6,51 +6,54 @@ using System.Threading.Tasks;
 
 namespace Dukou.Quotations.PO
 {
+    /// <summary>
+    /// 交易日类型
+    /// </summary>
     public enum TradingDayTypes
     {
         /// <summary>
         /// 星期日
         /// </summary>
-        Sunday = 1,
+        Sunday = 0,
 
         /// <summary>
         /// 星期一
         /// </summary>
-        Monday = 2,
+        Monday = 1,
 
         /// <summary>
         /// 星期一
         /// </summary>
-        Tuesday = 3,
+        Tuesday = 2,
 
         /// <summary>
         /// 星期一
         /// </summary>
-        Wednesday = 4,
+        Wednesday = 3,
 
         /// <summary>
         /// 星期一
         /// </summary>
-        Thursday = 5,
+        Thursday = 4,
 
         /// <summary>
         /// 星期一
         /// </summary>
-        Friday = 6,
+        Friday = 5,
 
         /// <summary>
         /// 星期一
         /// </summary>
-        Saturday = 7,
+        Saturday = 6,
 
         /// <summary>
         /// 每天
         /// </summary>
-        Daily = 8,
+        Daily = 7,
 
         /// <summary>
         /// 日期
         /// </summary>
-        Date = 9
+        Date = 8
     }
 }

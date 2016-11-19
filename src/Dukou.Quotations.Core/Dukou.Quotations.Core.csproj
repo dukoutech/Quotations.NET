@@ -51,11 +51,15 @@
     <Compile Include="PO\Quotations.cs" />
     <Compile Include="PO\TenMinutesQuotations.cs" />
     <Compile Include="PO\ThirtyMinutesQuotations.cs" />
-    <Compile Include="PO\TradeTime.cs" />
+    <Compile Include="PO\TradingTime.cs" />
     <Compile Include="PO\TradingDay.cs" />
     <Compile Include="PO\TradingDayTypes.cs" />
     <Compile Include="PO\WeeklyQuotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ITradingDayService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service\Impl\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
